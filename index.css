@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.hero-contenedor {
+  height: 90vh;
+}
+
+.hero-imagen {
+  height: inherit;
+  background: url('https://cdn.q-dance.com/l6hfsc63q612/5YWzdis1kwEZdWwp6gFeQB/87b23cadc271bce1b503e50846f28c90/8.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
