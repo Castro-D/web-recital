@@ -46,7 +46,36 @@ html, body {
 }
 
 .nav-items a {
-  color: rgb(224, 217, 217);
+  color: rgb(189, 187, 187);
   text-decoration: none;
   margin: 0 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.nav-items a:hover {
+  color: rgb(133, 133, 252);
+}
+
+.quienes-somos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  background: url('./img/imagen-quienes-somos.jpg') no-repeat;
+  background-size: auto cover;
+  background-position: center;
+}
+
+.filtro-imagen {
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(126, 0, 204, 0.6);
+  position: absolute;
+}
+
+.quienes-somos h2 {
+  color: white;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
 }
