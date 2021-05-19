@@ -46,7 +46,7 @@ html, body {
 }
 
 .nav-items a {
-  color: rgb(189, 187, 187);
+  color: rgb(241, 241, 241);
   text-decoration: none;
   margin: 0 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -98,3 +98,50 @@ html, body {
   text-align: start;
   font-weight: bold;
 }
+
+.artistas {
+  height: 80vh;
+  background-color: rgb(26, 25, 25);
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-artistas {
+  position: absolute;
+}
+
+.contenedor-cartas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.carta {
+  width: 20%;
+  height: 400px;
+  background-color: rgb(216, 216, 216);
+  margin: 0 20px;
+}
+
+.tiesto {
+  height: 200px;
+  background: url('https://zona69.net/wp-content/uploads/2020/01/tiesto-quien-es.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nombre-artista {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.carta p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
