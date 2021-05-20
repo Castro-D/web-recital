@@ -100,7 +100,7 @@ html, body {
 }
 
 .artistas {
-  height: 80vh;
+  height: 90vh;
   background-color: rgb(26, 25, 25);
   display: flex;
   justify-content: center;
@@ -113,16 +113,16 @@ html, body {
 .contenedor-cartas {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
 }
 
 .carta {
   width: 20%;
-  height: 400px;
+  height: 500px;
   background-color: rgb(216, 216, 216);
   margin: 0 20px;
+  margin-top: 50px;
 }
 
 .tiesto {
@@ -138,10 +138,36 @@ html, body {
   margin-top: 30px;
   margin-bottom: 10px;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .carta p {
-  text-align: center;
+  text-align: start;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.guetta {
+  height: 200px;
+  background: url('https://yt3.ggpht.com/ytc/AAUvwnhDKJrLFgTxkinKNIQ94YcQC4D1dtaAE4WMYCDrTA=s900-c-k-c0x00ffffff-no-rj');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.van-buuren {
+  height: 200px;
+  background: url('https://www.eluniversal.com.mx/sites/default/files/N-C4-EU130120-1_DrupalMainImagennuevo.var_1578897417.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.van-dyk {
+  height: 200px;
+  background: url('http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSzG-i54QFr0vupxfG9XBwlXBcyMBmECAfeSBA_JN8T3YWD-4xObdvC8ZG0GCO-');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
