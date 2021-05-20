@@ -108,6 +108,11 @@ html, body {
 
 .titulo-artistas {
   position: absolute;
+  margin-top: 10px;
+  color: white;
+  z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
 }
 
 .contenedor-cartas {
@@ -122,7 +127,8 @@ html, body {
   height: 500px;
   background-color: rgb(216, 216, 216);
   margin: 0 20px;
-  margin-top: 50px;
+  margin-top: 80px;
+  border-radius: 5%;
 }
 
 .tiesto {
@@ -131,6 +137,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 5%;
 }
 
 .nombre-artista {
@@ -153,6 +160,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 5%;
 }
 
 .van-buuren {
@@ -161,6 +169,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 5%;
 }
 
 .van-dyk {
@@ -169,5 +178,6 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 5%;
 }
 
