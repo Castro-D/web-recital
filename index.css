@@ -119,7 +119,7 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .carta {
@@ -181,3 +181,57 @@ html, body {
   border-radius: 5%;
 }
 
+.seccion-ticket {
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-formulario {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-formulario {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(97, 95, 95);
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+.formulario {
+  width: 40%;
+  height: 50%;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  box-shadow: 5px 8px 6px 0px rgba(0,0,0,0.75);
+}
+
+.formulario h2 {
+  font-size: 20px;
+  color: rgb(73, 73, 73);
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario input {
+  width: 50%;
+  height: 12%;
+  margin: 5px 0;
+}
+
+.formulario button {
+  width: 25%;
+  height: 15%;
+  margin-top: 10px;
+  background-color: rgb(228 15 202);
+  color: white;
+}
