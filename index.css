@@ -34,15 +34,22 @@ html, body {
 }
 
 .nav-items {
+  margin-top: 15px;
+  width: 28%;
   display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 2, 163);
+  border-radius: 10px;
 }
 
 .nav-bar {
   position: fixed;
   width: 100%;
   z-index: 1;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-items a {
@@ -50,11 +57,11 @@ html, body {
   text-decoration: none;
   margin: 0 15px;
   font-family: 'Rubik', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .nav-items a:hover {
-  color: rgb(133, 133, 252);
+  color: rgb(249, 70, 255);
 }
 
 .quienes-somos {
