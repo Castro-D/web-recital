@@ -256,6 +256,7 @@ html, body {
   border: none;
   outline: none;
   font-family: 'Rubik', sans-serif;
+  cursor: pointer;
 }
 
 footer {
