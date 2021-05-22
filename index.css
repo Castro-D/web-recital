@@ -277,3 +277,7 @@ footer p {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
 }
+
+html {
+  scroll-behavior: smooth;
+}
