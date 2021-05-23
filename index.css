@@ -6,12 +6,14 @@
 
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 .portada {
   height: 90vh;
+  width: 100%;
   background: url('./img/portada.jpg') no-repeat;
-  background-size: auto cover;
+  background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -281,4 +283,5 @@ footer p {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
